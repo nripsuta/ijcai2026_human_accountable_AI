@@ -1,6 +1,6 @@
 # Human Perceptions of Accountable AI
 
-This repository contains the data and the code described in the paper “Responsibility in Multi-Agent Sequential Decision-Making: Comparing Human Judgments to Formal Models of Causal Attribution" by ["Nripsuta Ani Saxena, Stelios Triantafyllou, Goran Radanovic."], to appear in Proceedings of the IJCAI-ECAI 2026 Special Track on: Human-Centred Artificial Intelligence: Multidisciplinary Contours and Challenges of Next-Generation AI Research and Applications., https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-human-centred-ai/
+This repository contains the data and the code described in the paper “Responsibility in Multi-Agent Sequential Decision-Making: Comparing Human Judgments to Formal Models of Causal Attribution" by Nripsuta Ani Saxena, Stelios Triantafyllou, and Goran Radanovic, to appear in Proceedings of the IJCAI-ECAI 2026 Special Track on: Human-Centred Artificial Intelligence: Multidisciplinary Contours and Challenges of Next-Generation AI Research and Applications., https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-human-centred-ai/
 
 ---
 
