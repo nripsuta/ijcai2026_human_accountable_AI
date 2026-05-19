@@ -1,0 +1,2 @@
+Biased hand: both
+Total Time(5): 52.97099590301514sec
