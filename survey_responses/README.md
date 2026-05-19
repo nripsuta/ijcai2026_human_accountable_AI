@@ -2,18 +2,8 @@
 
 ## Data Formats Description
 Contains pre-pilot and pilot survey responses in the following formats:
-1. All data from Qualtrics, but in condensed form. 
-- Files in this format:
-    * Pre-pilot study: pre-pilot_condensed_data_all_wide_format.csv
-    * Pilot study: pilot_condensed_data_all_wide_format.csv 
-- Qualtrics has 1 column for each response entry of a question. Our survey has > 600 questions with multiple response entries (e.g., responsibility for Alex and AP5 for each question will be two separate columns). => Over 1k columns, which are extremely sparsely populated. 
-- Contain data for all questions answered by a respondent, including consent form, tutorial questions and clarity + demographic questions. Also contains display order for all questions that were displayed in randomized order, such as the order of 5 ACxRA questions, the order in which response options were displayed.  
-- is in wide format -- 1 row for each respondent. All 5 ACxRA questions answered by a participant are in the same row. => Still contains 70 columns, not listing headers here.
-- 50 rows of responses for pilot study, 10 for pre-pilot, + 3 rows of headers.
-- Files with data as described above contain "condensed_data_all_wide_format" in the name. 
 
-
-2. Other format of data contains only some columns in the long format, i.e., there is only 1 row per ACxRA question per participant.
+1. Data files containing relevant columns from Qualtrics in the long format, i.e., there is only 1 row per ACxRA question per participant.
 - Thus, 250 rows of participant responses for the pilot study (5 rows for each participant, 1 for each ACxRA question they answered.)
 - Files in this format:
     * Pre-pilot study: pre-pilot_condensed_data_with_responsibilities_long_format.csv
@@ -51,13 +41,10 @@ Contains pre-pilot and pilot survey responses in the following formats:
     * "TRxTR_AP5_rating_traj": Responsibility assignment for AP5 for this trajectory for TRxTR combination for the bias shown to participant. 
     * "TRxTR_agreement": Agreement between participant's ratings and computed ratings for TRxTR.
     * "trajectory": trajectory (trajectory number only, in int)
-- All such files contain "condensed_data_with_responsibilities_long_format" in their file name. 
 
 
-3. Original, unformatted data for pre-pilot and pilot studies from Qualtrics (>1000 colums)
-- Files in this format: 
-    * Pre-pilot: ACxRA_survey_MPI_hosted_pre-pilot_study_data.csv
-    * Pilot: ACxRA_survey_MPI-hosted_pilot_data_completed_records_only.csv
+
+
 
 ## Selection of trajectories
 Trajectories for each treatment were selected randomly, including for factual-only settings. 
