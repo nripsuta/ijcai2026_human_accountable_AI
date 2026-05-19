@@ -6,8 +6,8 @@ Contains pre-pilot and pilot survey responses in the following formats:
 1. Data files containing relevant columns from Qualtrics in the long format, i.e., there is only 1 row per ACxRA question per participant.
 - Thus, 250 rows of participant responses for the pilot study (5 rows for each participant, 1 for each ACxRA question they answered.)
 - Files in this format:
-    * Pre-pilot study: pre-pilot_condensed_data_with_responsibilities_long_format.csv
-    * Pilot study: pilot_condensed_data_with_responsibilities_long_format.csv
+    * Pre-pilot study: 2025_pre_pilot_data_long_format.csv
+    * Pilot study: 2025_pilot_data_with_responsibilities_long_format.csv
 - For computing agreement of a participant's ratings for Alex and AP-5 with the ratings by a particular ACxRA combination, the formula used is: 0.5 * ( Indicator( r_Alex(calculated for combo) == r_Alex(reported by participant) + r_AP5(calculated for combo) == r_AP5(reported by participant) ) )
 - Contains the following columns:
     * "ResponseId": Prolific identifier for a participant's record for a survey. 
