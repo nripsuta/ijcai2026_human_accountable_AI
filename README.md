@@ -6,7 +6,7 @@ This repository contains the data and the code described in the paper “Respons
 
 ## Overview
 
-This repository investigates whether formal methods for attributing responsibility to AI agents align with human moral intuitions. We simulate a cooperative card game, compute agent responsibility scores using combinations of **actual causation** (AC) and **responsibility attribution** (RA) definitions, and compare these scores against ratings collected from human participants via a Prolific survey.
+This repository investigates whether formal methods for attributing responsibility to AI agents align with human moral intuitions. We simulate a cooperative card game, compute agent responsibility scores using combinations of **actual causation** (AC) and **responsibility attribution** (RA) definitions, and compare these scores against ratings collected from human participants via a survey on the platform Prolific.
 
 See the paper for a full description of the game, the formal definitions, and the experimental design.
 
