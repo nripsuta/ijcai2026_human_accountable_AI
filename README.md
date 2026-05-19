@@ -15,7 +15,7 @@ See the paper for a full description of the game, the formal definitions, and th
 ## Repository Structure
 
 ```
-ijcai2026_hcai/
+ijcai2026_human_accountable_AI/
 ├── params.py                    # Experiment configuration
 ├── run_experiment.py            # Main entry point
 ├── requirements.txt
@@ -23,17 +23,17 @@ ijcai2026_hcai/
 ├── data/                        # Generated trajectories and causes, by bias condition
 ├── combinations_results/        # Computed responsibility scores, by AC×RA combination
 ├── ground_truth_all_trajectories_responsibilities_scores.csv
-├── qualtrics-survey/            # Qualtrics survey export (.qsf)
+├── qualtrics-survey/            # Qualtrics survey file (.qsf)
 └── survey_responses/            # Cleaned participant data, plots, and analysis scripts
 ```
 
----
+
 
 ## Installation
 
 ```bash
-git clone <repo-url>
-cd ijcai2026_hcai
+git clone https://github.com/nripsuta/ijcai2026_human_accountable_AI.git
+cd ijcai2026_human_accountable_AI
 pip install -r requirements.txt
 ```
 
