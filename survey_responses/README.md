@@ -1,6 +1,6 @@
 # Cleaned data from Prolific Surveys
 
-## Data Formats Description
+## Data Format Description
 Contains pre-pilot and pilot survey responses in the following formats:
 
 1. Data files containing relevant columns from Qualtrics in the long format, i.e., there is only 1 row per ACxRA question per participant.
@@ -55,15 +55,6 @@ Trajectories for each treatment were selected randomly, including for factual-on
      
 - In case of a trajectory with game that ended in a draw, a new random number was generated as the replacement trajectory (since we decided not to have games that end in draws to avoid confusing participants). "../qualtrics-survey/record-questions-final.csv" contains the seed number for the random number generator used to generate random numbers as well as the list of selected trajectories. 
 
-
-## Data cleaning script 
-data_desired_format.py cleans the data. 
-- It takes the following arguments: 
-    * the path to a sparse CSV file of survey data as the first argument. 
-    * name of the survey (e.g., "pre-pilot" or "pilot") as the second argument.
-- It cleans the data and creates 2 new files under a "cleaned_data" subdirectory:
-    * survey_name (second argument) + "_condensed_data_all_wide_format.csv": file with all survey data in condensed form in wide format (#1 in Data Formats Description).
-    * survey_name (second argument) + "_condensed_data_with_responsibilities_long_format.csv": file with a subset of columns in long format (#2 in Data Formats Description)
 
 
 ## Script to create plots
