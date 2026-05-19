@@ -1,7 +1,7 @@
 # Cleaned data from Prolific Surveys
 
 ## Data Format Description
-Contains pre-pilot and pilot survey responses in the following formats:
+Contains pre-pilot and pilot survey responses in the following format:
 
 1. Data files containing relevant columns from Qualtrics in the long format, i.e., there is only 1 row per ACxRA question per participant.
 - Thus, 250 rows of participant responses for the pilot study (5 rows for each participant, 1 for each ACxRA question they answered.)
